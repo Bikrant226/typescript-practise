@@ -50,6 +50,13 @@ console.log(arrowFunctionDemo("Bikrant",24));  // Hello Everyone, I am Bikrant, 
 console.log(arrowFunctionDemo("Bikrant","24"));  // Argument of type 'string' is not assignable to parameter of type 'number'.
 
 
+//unknown type
+let notKnown: unknown;
+notKnown='Hello';
+notKnown=3;
+console.log(notKnown);
+
+
 
 
 
